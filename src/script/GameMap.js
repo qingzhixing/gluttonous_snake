@@ -1,6 +1,6 @@
 'use strict';
 const GridType={
-    GRID_TYPE_NONE:0,
+    GRID_TYPE_EMPTY:0,
     GRID_TYPE_WALL:1,
     GRID_TYPE_FOOD:2,
     GRID_TYPE_SNAKE_BODY:3,
@@ -8,3 +8,16 @@ const GridType={
 
     GRID_TYPE_MAX:5
 }
+
+const GridColor={
+    GRID_COLOR_EMPTY:'#7B7D87',
+    GRID_COLOR_WALL:'#656FAF',
+    GRID_COLOR_FOOD:'#F07886',
+    GRID_COLOR_SNAKE_BODY:'#E7E6E1',
+    GRID_COLOR_SNAKE_HEAD:'#52DE97',
+
+    GRID_COLOR_MAX:5
+}
+
+
+export {GridType,GridColor}
